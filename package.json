@@ -1,0 +1,23 @@
+{
+    "name": "expresstest",
+    "version": "1.0.0",
+    "description": "recopilado de expressTest",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsc && node build/main.js"
+    },
+    "author": "Alberto <programacion@web-gdl.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@types/inquirer": "0.0.43",
+        "inquirer": "^6.2.1",
+        "mocha": "^5.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.18"
+    },
+    "keywords": [
+        "local"
+    ]
+}
